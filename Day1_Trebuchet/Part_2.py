@@ -1,5 +1,5 @@
 
-with open("Day1/input.txt") as file:
+with open("Day1_Trebuchet/input.txt") as file:
     input = file.read().splitlines()
 
 final = 0
