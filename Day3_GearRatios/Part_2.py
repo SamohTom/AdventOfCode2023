@@ -5,6 +5,10 @@ symbols = list('.1234567890')
 
 final = 0
 
+#
+# could be optimized by just compareing symbols with numbers in y-1; y+1
+#
+
 
 class Number:
     def __init__(self, number, xEnd, y):
